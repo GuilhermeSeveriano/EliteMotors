@@ -6,9 +6,6 @@ main{
   background-color: #000;
 }
 
-body{
-  background-color: #464545;
-}
 
 .logotipo{
 height: 90px;
@@ -16,4 +13,31 @@ height: 90px;
 
 .justificar{
 text-align: justify;
+}
+
+.hero{
+  background: url("../img/ft.png") center/cover no-repeat;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 80vh;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 3em;
+}
+.tamanho{
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
+
+.imagemcaroussel{
+  height: auto;
+  width: 30px;
 }
