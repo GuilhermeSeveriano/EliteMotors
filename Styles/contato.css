@@ -6,8 +6,6 @@ main{
     background-color: #000;
 }
 
-
-
  .logotipo{
   height: 90px;
  }
@@ -16,12 +14,15 @@ main{
   text-align: justify;
  }
 
+ .icon-box{
+    color:rgb(233, 176, 33);
+ }
+
  .fixarRodape {
     bottom: 0;
-    
+    position: fixed;
     text-align: center;
     background-color: #000;
-    margin-top: 20px;
 }
 
 .agroup{

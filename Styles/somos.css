@@ -1,0 +1,43 @@
+.header {
+    background-color: #000;
+}
+
+main {
+    background-color: #000;
+}
+
+.logotipo {
+    height: 90px;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+
+.hero {
+    background: url("../img/Carros/porsche911.webp") center/cover no-repeat;
+
+    min-height: 70vh;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 3em;
+}
+
+.fixarRodape {
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+}
+
+.agroup {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}

@@ -6,8 +6,6 @@ main{
     background-color: #000;
 }
 
-
-
  .logotipo{
   height: 90px;
  }
@@ -15,3 +13,14 @@ main{
  .justificar{
   text-align: justify;
  }
+ .fixarRodape {
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+}
+
+.agroup{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}

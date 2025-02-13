@@ -6,6 +6,16 @@ main{
   background-color: #000;
 }
 
+.Inicio{
+  display: flex;
+  align-content: center;
+  width: 850px;
+  height: 478px;
+  filter: brightness(0.9);
+}
+
+
+
 
 .logotipo{
 height: 90px;
@@ -31,6 +41,7 @@ text-align: justify;
   width: 100%;
   padding: 3em;
 }
+
 .tamanho{
   padding-left: 100px;
   padding-right: 100px;
@@ -40,4 +51,26 @@ text-align: justify;
 .imagemcaroussel{
   height: auto;
   width: 30px;
+}
+
+.card-img-top{
+  width: 200px;
+  height: auto;
+  border: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card a {
+  text-decoration: none !important;
+}
+
+
+@media (max-width: 600px) {
+  .Inicio{    
+    width: 400px;
+    height: 300px;    
+  }
 }
