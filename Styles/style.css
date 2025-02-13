@@ -11,7 +11,7 @@ main{
   align-content: center;
   width: 850px;
   height: 478px;
-  filter: brightness(0.9);
+  filter: brightness(0.75);
 }
 
 
@@ -57,6 +57,34 @@ text-align: justify;
   width: 200px;
   height: auto;
   border: 0;
+}
+
+.hero-1{
+  background: url("../img/Iates/Serene.jpg") center/cover no-repeat;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 80vh;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay-1{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  padding: 3em;
+  margin: auto;
+}
+
+.service-img {
+  width: 25%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 a {
