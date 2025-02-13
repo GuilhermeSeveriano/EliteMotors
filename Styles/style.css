@@ -60,11 +60,11 @@ text-align: justify;
 }
 
 .hero-1{
-  background: url("../img/Iates/Serene.jpg") center/cover no-repeat;
+  background: url("../img/Carros/aston-martin.jpg") center/cover no-repeat;
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  min-height: 80vh;
+  min-height: 100vh;
   color: #ffff;
   display: flex;
   align-items: center;
